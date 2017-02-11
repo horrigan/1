@@ -1,0 +1,25 @@
+{
+  "name": "mongo-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Denis A",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --exec npm run start"
+  },
+  "dependencies": {
+    "jade": "^1.11.0",
+    "koa": "2",
+    "koa-bodyparser": "next",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^1.1.3",
+    "koa-logger": "^1.3.1",
+    "koa-router": "next",
+    "koa-static": "^2.1.0",
+    "koa-views": "next",
+    "mongodb": "^2.2.22",
+    "nodemon": "^1.11.0"
+  }
+}
