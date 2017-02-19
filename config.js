@@ -1,3 +1,4 @@
 module.exports = {
-  connectionString : "mongodb://localhost:27017/test"
+  connectionString : "mongodb://localhost:27017/video",
+  movieCollection : "movieDetails"
 };
